@@ -1,0 +1,270 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>La Guitarrica</title>
+    <link rel="stylesheet" type="text/css" href="style.css"
+</head>
+<body>
+    <!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/estilo.css">
+
+    <title>Bar La Guitarrica</title>
+</head>
+
+<body>
+    <div id="contenedor">
+        <!-- 
+    ##############################
+    #         CABECERA           #
+    ##############################
+        Un grupo de navegación o contenido introductorio. 
+        Un elemento header normalmente contiene una sección de encabezado 
+        (un elemento h1-h6 o un elemento hgroup), 
+        pero puede contener otro tipo de elementos, 
+        como una tabla de contenidos, 
+        un formulario de búsqueda 
+        o cualquier logo importante.
+        En HTML5 usariamos la etiqueta HEADER
+    -->
+        <div id="cabecera">
+            <img src="images/guitarrica.png" alt="Muestra una imagen de una guitarra">
+            <h1>Bar <span class='spanmorado'>La Guitarrica</span></h1>
+        </div>
+        <!-- 
+    ##############################
+    #         NAVEGACIÓN         #
+    ##############################
+El elemento <nav> representa una sección de una página 
+que enlaza con otras páginas o partes de la misma página: 
+una sección con enlaces de navegación.
+-->
+        <div id="nav">
+            <ul id="menu">
+                <li><a class="active" href="#informacion">Información</a></li>
+                <li><a href="#tapas">Tapas</a></li>
+                <li><a href="#postres">Postres</a></li>
+                <li><a href="#conciertos">Conciertos</a></li>
+                <li><a href="#video">Vídeo</a></li>
+                <li><a href="#valoraciones">Valóranos</a></li>
+            </ul>
+        </div>
+
+        <div id="contenido">
+            <div id="informacion" class="apartado">
+                <h1>Covid-19 y el bar</h1>
+                <img src="images/covid.jpg" alt="Imagen donde se muestran utensilios de higiene">
+                <br>
+                <p>
+                    <mark><strong>Mesas</strong></mark> Todas las mesas del local, tanto las de la terraza son desinfectadas antes y después de su uso, así como separadas con una distancia de 2 metros entre ellas.
+                </p>
+                <p>
+                    <mark><strong>Normas</strong></mark> Los clientes deben de llevar mascarilla, si no, no serán atendidos. Jabón antiséptico será facilitado a todos.
+                </p>
+                <p>
+                    <mark><strong>Conciertos</strong></mark> A causa de la situación actual, en las noches de concierto solo se podrá ir al bar con entrada previamente adquirida. De esta manera se evitan aglomeraciones. Como de costumbre, será gratis disfrutar del espectáculo, pero, <strong>hay que reservar</strong>. 
+                    </p><p>
+                    Abajo se pueden reservar entradas.
+                </p>
+
+            </div>
+
+            <div id="tapas" class="apartado">
+                <h1>Tapas</h1>
+                <img src="images/tapas.jpg" alt="Imagen donde se muestran tapas">
+                <br>
+                <table>
+                    <tr>
+                        <th></th>
+                        <th>Tapa</th>
+                        <th>Opciones</th>
+                        <th>Precio</th>
+                    </tr>
+                    <tr>
+                        <td>1</td>
+                        <td>Hamburguesa</td>
+                        <td>Normal/Vegana</td>
+                        <td>1.5€</td>
+                    </tr>
+                    <tr>
+                        <td>2</td>
+                        <td>Lomo con queso</td>
+                        <td>Con/Sin lactosa</td>
+                        <td>1.75€</td>
+                    </tr>
+                    <tr>
+                        <td>3</td>
+                        <td>Patatas bravas</td>
+                        <td>-----------------</td>
+                        <td>1€</td>
+                    </tr>
+                    <tr>
+                        <td>4</td>
+                        <td>Pescado del día</td>
+                        <td>Preguntar</td>
+                        <td>???</td>
+                    </tr>
+                    <tr>
+                        <td>5</td>
+                        <td>Carne con tomate</td>
+                        <td>-----------------</td>
+                        <td>1,25€</td>
+                    </tr>
+                    <tr>
+                        <td>6</td>
+                        <td>Queso</td>
+                        <td>Con/Sin lactosa</td>
+                        <td>1,25€</td>
+                    </tr>
+                    <tr>
+                        <td>7</td>
+                        <td>Jamón</td>
+                        <td>Con/Sin tomate</td>
+                        <td>2€</td>
+                    </tr>
+                    <tr>
+                        <td>8</td>
+                        <td>Migas o Paella</td>
+                        <td>Solo domingos</td>
+                        <td>1.50€</td>
+                    </tr>
+                    <tr>
+                        <td>9</td>
+                        <td>Croquetas</td>
+                        <td>Pollo/Jamón</td>
+                        <td>1.50€</td>
+                    </tr>
+                    <tr>
+                        <td>10</td>
+                        <td>Pincho</td>
+                        <td>Ternera/Cerdo</td>
+                        <td>1.25€</td>
+                    </tr>
+                </table>
+            </div>
+
+            <div id="postres" class="apartado">
+                <h1>Postres</h1>
+                <img src="images/postres.jpg" alt="Imagen donde se muestra un desayuno">
+
+                <ul>
+                    <li><strong>Pasteles de hojaldre y fresas</strong>
+                        <ul>
+                            <li>Con nata: <u>2.50€</u></li>
+                            <li>Con chocolate: <u>2.50€</u></li>
+                            <li>Con nata y chocolate: <u>3€</u></li>
+                        </ul>
+                    </li>
+                    <li><strong>Café</strong>
+                        <ul>
+                            <li>Con leche: <u>1.25€</u></li>
+                            <li>Capuchino: <u>1.50€</u></li>
+                        </ul>
+                    </li>
+                    <li><strong>Brownie</strong>
+                        <ul>
+                            <li>Normal, nata y chocolate: <u>2.50€</u></li>
+                            <li>Normal + Helado: <u>3€</u></li>
+                        </ul>
+                    </li>
+                    <li><strong>Mousse</strong>
+                        <ul>
+                            <li>Chocolate negro: <u>2€</u></li>
+                            <li>Chocolate blanco: <u>2.50€</u></li>
+                        </ul>
+
+                    </li>
+                    <li><strong>Fruta del tiempo</strong></li>
+                </ul>
+            </div>
+            <div id="conciertos" class="apartado">
+                <h1>Conciertos y entradas</h1>
+                <img src="images/concierto.jpg" alt="Imagen donde se muestra una guitarra siendo tocada">
+                <br>
+
+                <form action="#" target="" method="get" name="formDatosPersonales">
+
+
+                    <label for="personas">Personas</label>
+                    <input type="number" type="number" min="1" max="4" name="personas" id="personas" placeholder="acompañantes" />
+                    <br>
+                    <label for="día-select">Elige día:</label>
+
+                    <select name="día" id="día-select">
+                    <option value="">--Elige día--</option>
+                    <option value="lunes">Lunes</option>
+                    <option value="miercoles">Miércoles</option>
+                    <option value="viernes">Viernes</option>
+                    <option value="sábado">Sábado</option>
+
+                    </select>
+                    <br>
+                    <label for="mensaje">Mensaje</label>
+                    <textarea name="mensaje" for="mensaje" placeholder="Di tus preferencias en cuanto a sitio" maxlength="300"></textarea>
+
+                    <input type="submit" name="enviar" value="enviar datos" />
+                </form>
+            </div>
+
+            <div id="video" class="apartado">
+                <h1>¡Conócenos!</h1>
+                <p>¡Aquí van algunas canciones que escucharás en el bar!</p>
+                <iframe width="560" height="315" src="https://www.youtube.com/embed/rI03bxj4y34" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                <p>Curiosidades de la guitarra.</p>
+                <iframe width="560" height="315" src="https://www.alhambrasl.com/es/blog/61/la-musica-para-guitarra-potencia-el-bienestar.html" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            </div>
+
+            <div id="valoraciones">
+                <h1>¡Deja aquí tu opinión!</h1>
+                <form>
+                <fieldset>
+                    <legend>De peor a mejor</legend>
+                Opinión <input type="range" id="opinión" list="tickmarks" /><br>
+                <datalist id="tickmarks">
+                    <option value="0">
+                        <option value="10">
+                            <option value="20">
+                                <option value="30">
+                                    <option value="40">
+                                        <option value="50"><label>50%</label>
+                                            <option value="60">
+                                                <option value="70">
+                                                    <option value="80">
+                                                        <option value="90">
+                                                            <option value="100">
+                </datalist>
+            </fieldset> 
+                </form>
+            </div>
+            <div>
+                <p>¡Vuelve pronto!</p>
+                <p>Te esperamos en La Guitarrica.</p>
+            </div>
+
+            
+        <!-- 
+         ##############################
+         #      PIE DE PÁGINA         #
+         ##############################
+    En HTML5 usamos la etiqueta <footer>    
+    Representa el pie de una sección. Un pie tradicionalmente contiene 
+    información acerca de su sección, como quién escribió el contenido, 
+    enlaces relacionados, copyright y similares.
+  -->
+        <div id="pie">
+            <a href="https://es.wikipedia.org/wiki/Guitarra"><img src="images/logo.jpg" alt="Muestra el logo La Guitarrica"></a>
+        </div>
+    
+ 
+
+</body>
+
+</html>
+</body>
+</html>
